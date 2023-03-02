@@ -1,6 +1,9 @@
 <script>
+import Comics from './Comics.vue'
 export default {
-
+    components:{
+        Comics
+    }
 }
 
 
@@ -9,20 +12,18 @@ export default {
 <!-- =============================================== -->
 <template>
     <div class="background">
+        <img class="jumbo" src="../assets/jumbotron.jpg">
         <div class="main-container container">
-            <h1>
-                --> CONTENT GOES HERE 
-            </h1>
+
+            <div class="comics">
+                <!-- <Comics/> -->
+            </div>
         </div>
     </div>
 </template>
 <!-- =============================================== -->
 <style lang="scss" scoped>
-// * {
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-// }
+
 .container {
     height: 130px;
     display: flex;
@@ -36,5 +37,9 @@ export default {
 
 .background{
     background-color: #1C1C1C;
+
+    .jumbo{
+        max-width: 100%;
+    }
 }
 </style>

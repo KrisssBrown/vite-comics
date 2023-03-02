@@ -39,7 +39,11 @@ export default{
 
 <!-- =============================================== -->
 
-<style scoped>
+<style lang="scss" scoped>
+#app{
+  min-height: 100vh;
+}
+
 *{
   margin: 0;
   padding: 0;
