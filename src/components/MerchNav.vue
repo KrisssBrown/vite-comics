@@ -43,7 +43,6 @@ export default {
 
 .merch-list {
     display: flex;
-    padding: 20px 0;
     gap: 10px;
     justify-content: space-between;
     padding: 20px 40px;

@@ -8,17 +8,18 @@ export default {
 
 <!-- =============================================== -->
 <template>
-    <div class="background">
-        <div class="container">
-            
-        </div>
+    <div class="social-btn">
+        <a href="#">SIGN UP NOW!</a>
     </div>
 </template>
 <!-- =============================================== -->
 <style lang="scss" scoped>
-.background{
-    background-color: #303030;
-}
+    .social-btn{
+        color: white;
 
-
+        a{
+            border: 2px solid #0282F9;
+            padding: 10px;
+        }
+    }
 </style>
